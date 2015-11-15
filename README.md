@@ -4,7 +4,7 @@
 [![GitHub release](https://img.shields.io/github/release/carloscuesta/materialshell.svg?style=flat-square)](https://github.com/carloscuesta/materialshell)
 
 <p align="center">
-    <img src="https://cloud.githubusercontent.com/assets/7629661/11169981/16f38e14-8bc7-11e5-900c-bec925612b20.png" alt="Material Shell">
+    <img src="https://cloud.githubusercontent.com/assets/7629661/11170948/386d0da6-8be3-11e5-9617-942c14a4e441.png" alt="Material Shell">
 </p>
 
 > A [material color based](https://www.google.com/design/spec/style/color.html#color-color-palette) dark theme for your shell.  
@@ -17,7 +17,7 @@ These are the colors used in both versions of the material shell (Dark & Oceanic
 
 ## Download
 
-Before starting, you will need to download **material shell**: 
+Before starting, you will need to **download material shell**: 
 
 ```bash
 git clone https://github.com/carloscuesta/materialshell.git
@@ -26,10 +26,6 @@ git clone https://github.com/carloscuesta/materialshell.git
 Or directly download a ```materialshell.zip``` from [GitHub here](https://github.com/carloscuesta/materialshell/archive/master.zip).
 
 ## OS X
-
-Supported Terminals : [iTerm](https://www.iterm2.com) and OS X Terminal.
-
-### Use
 
 #### iTerm 
 
@@ -41,7 +37,7 @@ Supported Terminals : [iTerm](https://www.iterm2.com) and OS X Terminal.
 
 #### Terminal
 
-1. ```Terminal Preferences > Gear Icon > Import```
+1. ```Terminal > Preferences > Gear Icon > Import```
 2. Select one of the themes located at [```osx/terminal/```](https://github.com/carloscuesta/materialshell/tree/master/osx/terminal).
 3. Set as **default** the profile with the material shell theme selecting the profile and clicking on the ```Default``` button.
 
