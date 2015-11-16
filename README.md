@@ -45,4 +45,9 @@ Or directly download a ```materialshell.zip``` from [GitHub here](https://github
 
 ## Windows
 
+#### Cmder
+
+1. ```Cmder > Settings > Import ... ```
+2. Select one of the themes located at [```windows/cmder/```](https://github.com/carloscuesta/materialshell/tree/master/windows/cmder). 
+
 ## Demo
