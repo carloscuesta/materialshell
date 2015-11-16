@@ -23,11 +23,32 @@ Before starting, you will need to **download material shell**:
 git clone https://github.com/carloscuesta/materialshell.git
 ```
 
-Or directly download a ```materialshell.zip``` from [GitHub here](https://github.com/carloscuesta/materialshell/archive/master.zip).
+Or directly download ```materialshell.zip``` from [GitHub here](https://github.com/carloscuesta/materialshell/archive/master.zip).
+
+## ZSH
+
+If you want to have the same prompt as me, you will have to use [````materialshell.zsh-theme```]().
+
+#### [Oh-My-Zsh](http://ohmyz.sh/)
+
+1. Copy ```materialshell.zsh-theme``` to oh-my-zsh themes folder.
+
+```bash
+cp materialshell.zsh-theme ~/.oh-my-zsh/themes/
+````
+
+2. Modify ```.zshrc``` to enable and activate the theme.
+
+```bash
+# Set name of the theme to load @ ~/.oh-my-zsh/themes/
+ZSH_THEME="nico"
+```
+
+3. Save and restart your terminal.
 
 ## OS X
 
-#### iTerm 
+#### [iTerm](https://www.iterm2.com/) 
 
 1. ```iTerm > Preferences > Profiles > Colors Tab```.
 2. ```Color Presets ... > Load Presets > Import```.
@@ -49,5 +70,7 @@ Or directly download a ```materialshell.zip``` from [GitHub here](https://github
 
 1. ```Cmder > Settings > Import ... ```
 2. Select one of the themes located at [```windows/cmder/```](https://github.com/carloscuesta/materialshell/tree/master/windows/cmder). 
+
+Note: _Windows is a colorscheme version only._
 
 ## Demo
