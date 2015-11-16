@@ -19,27 +19,26 @@ These are the colors used in both versions of the material shell (Dark & Oceanic
 
 Before starting, you will need to **download material shell**: 
 
-```bash
-git clone https://github.com/carloscuesta/materialshell.git
-```
+- Clone the repository```git clone https://github.com/carloscuesta/materialshell.git```. 
+- Download the ```materialshell.zip``` from [GitHub here](https://github.com/carloscuesta/materialshell/archive/master.zip).
 
-Or directly download ```materialshell.zip``` from [GitHub here](https://github.com/carloscuesta/materialshell/archive/master.zip).
+## Shell Prompt
 
-## Prompt
+### Zsh
 
-## Zsh
-
-To setup the prompt as me, you will have to use [```materialshell.zsh-theme```](https://github.com/carloscuesta/materialshell/tree/master/zsh/materialshell.zsh-theme).
+To setup the prompt, you will need to have [```materialshell.zsh-theme```](https://github.com/carloscuesta/materialshell/tree/master/zsh/materialshell.zsh-theme) and [Oh-My-Zsh](http://ohmyz.sh/) installed. Then follow the next steps:
 
 #### [Oh-My-Zsh](http://ohmyz.sh/)
 
-1. Copy ```zsh/materialshell.zsh-theme``` to oh-my-zsh themes folder ```cp zsh/materialshell.zsh-theme ~/.oh-my-zsh/themes/```.
-2. Modify **```.zshrc```** to enable and activate the theme ```ZSH_THEME="materialshell"```.
+1. Copy ```zsh/materialshell.zsh-theme``` to ```~/.oh-my-zsh/themes/``` folder.
+2. Modify ```.zshrc``` to enable the theme with ```ZSH_THEME="materialshell"```.
 3. Save and restart your terminal.
 
 ## Shell Colors
 
-## OS X
+These are the color palettes for your Terminal emulators depending on your system and the emulator itself. [OS X](), [Linux](), Windows(), choose 
+
+### OS X
 
 #### [iTerm](https://www.iterm2.com/) 
 
@@ -55,9 +54,9 @@ To setup the prompt as me, you will have to use [```materialshell.zsh-theme```](
 2. Select one of the themes located at [```osx/terminal/```](https://github.com/carloscuesta/materialshell/tree/master/osx/terminal).
 3. Set as **default** the profile with the material shell theme selecting the profile and clicking on the ```Default``` button.
 
-## Linux
+### Linux
 
-## Windows
+### Windows
 
 #### Cmder
 
