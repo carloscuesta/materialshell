@@ -29,24 +29,13 @@ Or directly download ```materialshell.zip``` from [GitHub here](https://github.c
 
 ## Zsh
 
-If you want to have the same prompt as me, you will have to use [```materialshell.zsh-theme```](https://github.com/carloscuesta/materialshell/tree/master/zsh/materialshell.zsh-theme).
+To setup the prompt as me, you will have to use [```materialshell.zsh-theme```](https://github.com/carloscuesta/materialshell/tree/master/zsh/materialshell.zsh-theme).
 
 #### [Oh-My-Zsh](http://ohmyz.sh/)
 
-- Copy ```materialshell.zsh-theme``` to oh-my-zsh themes folder.
-
-```bash
-cp materialshell.zsh-theme ~/.oh-my-zsh/themes/
-````
-
-- Modify **```.zshrc```** to enable and activate the theme.
-
-```bash
-# Set name of the theme to load @ ~/.oh-my-zsh/themes/
-ZSH_THEME="nico"
-```
-
-- Save and restart your terminal.
+1. Copy ```zsh/materialshell.zsh-theme``` to oh-my-zsh themes folder ```cp zsh/materialshell.zsh-theme ~/.oh-my-zsh/themes/```.
+2. Modify **```.zshrc```** to enable and activate the theme ```ZSH_THEME="materialshell"```.
+3. Save and restart your terminal.
 
 ## Shell Colors
 
@@ -75,6 +64,10 @@ ZSH_THEME="nico"
 1. ```Cmder > Settings > Import ... ```
 2. Select one of the themes located at [```windows/cmder/```](https://github.com/carloscuesta/materialshell/tree/master/windows/cmder). 
 
-Note: _Windows is a colorscheme version only._
+Note: _Windows is a color scheme version only._
 
-## Demo
+## Screenshots
+
+| Dark | Oceanic |
+|:-:|:-:|
+| ![material shell dark](https://cloud.githubusercontent.com/assets/7629661/11183296/3fd39d7e-8c71-11e5-8a91-8713a9176a5c.png) | ![material shell oceanic](https://cloud.githubusercontent.com/assets/7629661/11183295/3fd236d2-8c71-11e5-8e56-bbf5c50686ce.png) |
