@@ -3,9 +3,7 @@
 [![GitHub license](https://img.shields.io/github/license/carloscuesta/materialshell.svg?style=flat-square)](https://github.com/carloscuesta/materialshell)
 [![GitHub release](https://img.shields.io/github/release/carloscuesta/materialshell.svg?style=flat-square)](https://github.com/carloscuesta/materialshell)
 
-<p align="center">
-    <img src="https://cloud.githubusercontent.com/assets/7629661/11170948/386d0da6-8be3-11e5-9617-942c14a4e441.png" alt="Material Shell">
-</p>
+![materialshell](https://cloud.githubusercontent.com/assets/7629661/11194912/348e69f6-8caf-11e5-97ec-876bd6565125.gif)
 
 > A [material color based](https://www.google.com/design/spec/style/color.html#color-color-palette) dark theme for your shell.  
 
