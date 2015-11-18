@@ -11,7 +11,7 @@
 - Cyan: [```#00ACC1```](http://www.color-hex.com/color/00ACC1)
 - White: [```#F5F5F5```](http://www.color-hex.com/color/F5F5F5)
 - Text: [```#A1B0B8```](http://www.color-hex.com/color/A1B0B8)
-- Background: [```#151515``](http://www.color-hex.com/color/151515)
+- Background: [```#151515```](http://www.color-hex.com/color/151515)
 
 ## Oceanic
 
@@ -24,4 +24,4 @@
 - Cyan: [```#18FFFF```](http://www.color-hex.com/color/18FFFF)
 - White: [```#F5F5F5```](http://www.color-hex.com/color/F5F5F5)
 - Text: [```#A1B0B8```](http://www.color-hex.com/color/A1B0B8)
-- Background: [```#263238``](http://www.color-hex.com/color/263238)
+- Background: [```#263238```](http://www.color-hex.com/color/263238)
