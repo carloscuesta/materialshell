@@ -28,13 +28,13 @@ To setup the prompt, you will need to have [```materialshell.zsh-theme```](https
 
 #### [Oh-My-Zsh](http://ohmyz.sh/)
 
-1. Copy ```zsh/materialshell.zsh-theme``` to ```~/.oh-my-zsh/themes/``` folder.
+1. Copy ```zsh/materialshell.zsh-theme``` _(dark or oceanic)_ to ```~/.oh-my-zsh/themes/``` folder.
 2. Modify ```.zshrc``` to enable the theme with ```ZSH_THEME="materialshell"```.
 3. Save and restart your terminal.
 
 ## Shell Colors
 
-These are the color palettes for your Terminal emulators depending on your system and the emulator itself. [OS X](), [Linux](), Windows(), choose 
+By **default** the **colors** are **enabled** with the **zsh theme**. These are the color palettes for your Terminal emulators depending on your system and the emulator itself. [OS X](https://github.com/carloscuesta/materialshell#os-x), [Linux](https://github.com/carloscuesta/materialshell#linux), [Windows](https://github.com/carloscuesta/materialshell#windows), choose the one you use. 
 
 ### OS X
 
@@ -53,6 +53,8 @@ These are the color palettes for your Terminal emulators depending on your syste
 3. Set as **default** the profile with the material shell theme selecting the profile and clicking on the ```Default``` button.
 
 ### Linux
+
+By default the colors are enabled with the ```.zsh-theme```. As there are a lot of different Linux terminals, If you are not seeing the colors well, you can setup the same colors using the [color palette codes](https://github.com/carloscuesta/materialshell/blob/master/colors.md). 
 
 ### Windows
 

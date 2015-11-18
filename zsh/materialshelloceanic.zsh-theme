@@ -1,20 +1,29 @@
 # Oh-My-Zsh : Nico Theme (https://gist.github.com/ntarocco/3027ed75b6e8fc1fd119)
 # Modified by : Carlos Cuesta
 
-PROMPT='$(_user_host)${_current_dir}$(git_prompt_info)
-%{$fg[white]%}>%{$reset_color%} '
+eval red='$FG[203]'
+eval green='$FG[184]'
+eval yellow='$FG[221]'
+eval blue='$FG[081]'
+eval magenta='$FG[204]'
+eval cyan='$FG[037]'
+eval white='$FG[231]'
+eval grey='$FG[145]'
 
-PROMPT2='%{$fg[grey]%}◀%{$reset_color%} '
+PROMPT='$(_user_host)${_current_dir}$(git_prompt_info)
+%{$white%}>%{$reset_color%} '
+
+PROMPT2='%{$grey%}◀%{$reset_color%} '
 
 #RPROMPT='$(_vi_status)%{$(echotc UP 1)%}$(git_prompt_short_sha) $(_git_time_since_commit) ${_return_status} %T% %{$(echotc DO 1)%}'
-RPROMPT='$(_vi_status)%{$(echotc UP 1)%}$(git_prompt_short_sha) ${_return_status} %{$fg[white]%}%T%{$(echotc DO 1)%}%{$reset_color%}'
+RPROMPT='$(_vi_status)%{$(echotc UP 1)%}$(git_prompt_short_sha) ${_return_status} %{$white%}%T%{$(echotc DO 1)%}%{$reset_color%}'
 
-local _current_dir="%{$fg[green]%}%0~%{$reset_color%} "
-local _return_status="%{$fg[red]%}%(?..×)%{$reset_color%}"
-local _hist_no="%{$fg[grey]%}%h%{$reset_color%}"
+local _current_dir="%{$green%}%0~%{$reset_color%} "
+local _return_status="%{$red%}%(?..×)%{$reset_color%}"
+local _hist_no="%{$grey%}%h%{$reset_color%}"
 
 function _user_host() {
-  echo "%{$fg[red]%}%n%{$reset_color%}%{$fg[white]%} at %{$fg[yellow]%}%m%{$reset_color%} %{$fg[white]%}in "
+  echo "%{$red%}%n%{$reset_color%}%{$white%} at %{$yellow%}%m%{$reset_color%} %{$white%}in "
 }
 
 function _vi_status() {
@@ -25,7 +34,7 @@ function _vi_status() {
 
 function _ruby_version() {
   if {echo $fpath | grep -q "plugins/rvm"}; then
-    echo "%{$fg[grey]%}$(rvm_prompt_info)%{$reset_color%}"
+    echo "%{$grey%}$(rvm_prompt_info)%{$reset_color%}"
   fi
 }
 
@@ -64,33 +73,33 @@ function _git_time_since_commit() {
 }
 
 if [[ $USER == "root" ]]; then
-  CARETCOLOR="red"
+  CARETCOLOR="$red"
 else
-  CARETCOLOR="white"
+  CARETCOLOR="$white"
 fi
 
-MODE_INDICATOR="%{$fg_bold[yellow]%}❮%{$reset_color%}%{$fg[yellow]%}❮❮%{$reset_color%}"
+MODE_INDICATOR="%{_bold$yellow%}❮%{$reset_color%}%{$yellow%}❮❮%{$reset_color%}"
 
-ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg[white]%}on %{$fg[blue]%}"
+ZSH_THEME_GIT_PROMPT_PREFIX="%{$white%}on %{$blue%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%} "
 
-ZSH_THEME_GIT_PROMPT_DIRTY=" %{$fg[red]%}✗%{$reset_color%}"
-ZSH_THEME_GIT_PROMPT_CLEAN=" %{$fg[green]%}✔%{$reset_color%}"
-ZSH_THEME_GIT_PROMPT_ADDED=" %{$fg[green]%}✚{$reset_color%}"
-ZSH_THEME_GIT_PROMPT_MODIFIED=" %{$fg[yellow]%}⚑{$reset_color%} "
-ZSH_THEME_GIT_PROMPT_DELETED=" %{$fg[red]%}✖{$reset_color%} "
-ZSH_THEME_GIT_PROMPT_RENAMED=" %{$fg[blue]%}▴{$reset_color%} "
-ZSH_THEME_GIT_PROMPT_UNMERGED=" %{$fg[cyan]%}§{$reset_color%} "
-ZSH_THEME_GIT_PROMPT_UNTRACKED=" %{$fg[grey]%}◒{$reset_color%} "
+ZSH_THEME_GIT_PROMPT_DIRTY=" %{$red%}✗%{$reset_color%}"
+ZSH_THEME_GIT_PROMPT_CLEAN=" %{$green%}✔%{$reset_color%}"
+ZSH_THEME_GIT_PROMPT_ADDED=" %{$green%}✚{$reset_color%}"
+ZSH_THEME_GIT_PROMPT_MODIFIED=" %{$yellow%}⚑{$reset_color%} "
+ZSH_THEME_GIT_PROMPT_DELETED=" %{$red%}✖{$reset_color%} "
+ZSH_THEME_GIT_PROMPT_RENAMED=" %{$blue%}▴{$reset_color%} "
+ZSH_THEME_GIT_PROMPT_UNMERGED=" %{$cyan%}§{$reset_color%} "
+ZSH_THEME_GIT_PROMPT_UNTRACKED=" %{$grey%}◒{$reset_color%} "
 
 # Colors vary depending on time lapsed.
-ZSH_THEME_GIT_TIME_SINCE_COMMIT_SHORT="%{$fg[green]%}"
-ZSH_THEME_GIT_TIME_SHORT_COMMIT_MEDIUM="%{$fg[yellow]%}"
-ZSH_THEME_GIT_TIME_SINCE_COMMIT_LONG="%{$fg[red]%}"
-ZSH_THEME_GIT_TIME_SINCE_COMMIT_NEUTRAL="%{$fg[yellow]%}"
+ZSH_THEME_GIT_TIME_SINCE_COMMIT_SHORT="%{$green%}"
+ZSH_THEME_GIT_TIME_SHORT_COMMIT_MEDIUM="%{$yellow%}"
+ZSH_THEME_GIT_TIME_SINCE_COMMIT_LONG="%{$red%}"
+ZSH_THEME_GIT_TIME_SINCE_COMMIT_NEUTRAL="%{$yellow%}"
 
 # Format for git_prompt_long_sha() and git_prompt_short_sha()
-ZSH_THEME_GIT_PROMPT_SHA_BEFORE="%{$reset_color%}[%{$fg[yellow]%}"
+ZSH_THEME_GIT_PROMPT_SHA_BEFORE="%{$reset_color%}[%{$yellow%}"
 ZSH_THEME_GIT_PROMPT_SHA_AFTER="%{$reset_color%}]"
 
 # LS colors, made with http://geoff.greer.fm/lscolors/
