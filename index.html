@@ -1,0 +1,562 @@
+<!DOCTYPE html><html><!DOCTYPE html><head><title>Material Shell | Carlos Cuesta</title><meta charset="utf-8"><meta name="author" content="Carlos Cuesta"><meta name="description" content="Material Shell is a theme for your zsh and terminal based on Google material colors. Made by Carlos Cuesta"><meta name="keywords" content=""><meta name="viewport" content="width=device-width,initial-scale=1"><base href="./assets/"><style type="text/css">
+.red {
+  background-color: #F44336 !important;
+}
+
+.pink {
+  background-color: #e91e63 !important;
+}
+
+.white {
+  background-color: #FFFFFF !important;
+}
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+footer,
+header,
+section {
+  display: block;
+}
+
+a {
+  background-color: transparent;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+img {
+  border: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+a {
+  color: #039be5;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.card,
+.btn {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 90%;
+}
+
+@media only screen and (min-width : 601px) {
+  .container {
+    width: 85%;
+  }
+}
+
+@media only screen and (min-width : 993px) {
+  .container {
+    width: 70%;
+  }
+}
+
+.container .row {
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+}
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row .col {
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 0.75rem;
+}
+
+.row .col.m15 {
+  width: 20%;
+  margin-left: 0;
+}
+
+.row .col.s6 {
+  width: 50%;
+  margin-left: 0;
+}
+
+.row .col.s12 {
+  width: 100%;
+  margin-left: 0;
+}
+
+@media only screen and (min-width : 601px) {
+  .row .col.m15 {
+    width: 20%;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (min-width : 993px) {
+  .row .col.l15 {
+    width: 20%;
+    margin-left: 0;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+@media only screen and (min-width: 0) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  html {
+    font-size: 14.5px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+h1,
+h4,
+h5 {
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+h1 {
+  font-size: 4.2rem;
+  line-height: 110%;
+  margin: 2.1rem 0 1.68rem 0;
+}
+
+h4 {
+  font-size: 2.28rem;
+  line-height: 110%;
+  margin: 1.14rem 0 0.912rem 0;
+}
+
+h5 {
+  font-size: 1.64rem;
+  line-height: 110%;
+  margin: 0.82rem 0 0.656rem 0;
+}
+
+.card {
+  position: relative;
+  margin: 0.5rem 0 1rem 0;
+  background-color: #fff;
+  transition: box-shadow .25s;
+  border-radius: 2px;
+}
+
+.btn {
+  border: none;
+  border-radius: 2px;
+  display: inline-block;
+  height: 36px;
+  line-height: 36px;
+  outline: 0;
+  padding: 0 2rem;
+  text-transform: uppercase;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.btn {
+  text-decoration: none;
+  color: #fff;
+  background-color: #26a69a;
+  text-align: center;
+  letter-spacing: .5px;
+  -webkit-transition: .2s ease-out;
+  -moz-transition: .2s ease-out;
+  -o-transition: .2s ease-out;
+  -ms-transition: .2s ease-out;
+  transition: .2s ease-out;
+  cursor: pointer;
+}
+
+.waves-effect {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  vertical-align: middle;
+  z-index: 1;
+  will-change: opacity, transform;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  -o-transition: all .3s ease-out;
+  -ms-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+
+::-webkit-input-placeholder {
+  color: #d1d1d1;
+}
+
+:-moz-placeholder {
+  color: #d1d1d1;
+}
+
+::-moz-placeholder {
+  color: #d1d1d1;
+}
+
+:-ms-input-placeholder {
+  color: #d1d1d1;
+}
+
+.row {
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  -webkit-box-flex: 0;
+  flex: 0 1 auto;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -1rem;
+  margin-left: -1rem;
+}
+
+.col-xs-12 {
+  box-sizing: border-box;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  -webkit-box-flex: 0;
+  flex: 0 0 auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.col-xs-12 {
+  -ms-flex-preferred-size: 100%;
+  -webkit-flex-basis: 100%;
+  flex-basis: 100%;
+  max-width: 100%;
+}
+
+.center-xs {
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+@media only screen and (min-width:48em) {
+  .container {
+    width: 46rem;
+  }
+}
+
+@media only screen and (min-width:62em) {
+  .container {
+    width: 61rem;
+  }
+}
+
+@media only screen and (min-width:75em) {
+  .container {
+    width: 71rem;
+  }
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto';
+}
+
+.btn {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+* {
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+h1,
+h4,
+h5 {
+  font-family: 'Roboto';
+  margin: 0;
+}
+
+body section .card,
+body section .card .red-light,
+body section .card .red-dark,
+body section .card .yellow-light,
+body section .card .yellow-dark,
+body section .card .green-light,
+body section .card .green-dark,
+body section .card .blue-light,
+body section .card .blue-dark,
+body section .card .cyan-light,
+body section .card .cyan-dark,
+body section .card .magenta-light,
+body section .card .magenta-dark,
+body section .card .white,
+body section .card .text,
+body section .card .black-light,
+body section .card .black-dark,
+body section .card .bg-light,
+body section .card .bg-dark {
+  width: 5vw;
+  height: 5vw;
+}
+
+.container {
+  max-width: 740px;
+}
+
+body {
+  background: #fff;
+}
+
+body header {
+  background-color: #3F51B5;
+  padding: 4rem;
+}
+
+body header h1 {
+  font-weight: 400;
+  color: #fff;
+  padding: 1rem;
+}
+
+body header h4 {
+  font-weight: 400;
+  color: #fff;
+  font-size: 2rem;
+  opacity: 0.8;
+}
+
+body footer {
+  background-color: #212121;
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+body section.colors {
+  background-color: #f9f9f9;
+}
+
+body section {
+  padding: 2rem;
+}
+
+body section h5 {
+  color: #3F51B5;
+  margin-bottom: 1.5rem;
+}
+
+body section p {
+  font-size: 1.3rem;
+  text-align: left;
+  color: #616161;
+  font-weight: 300;
+}
+
+body section .card .red-light {
+  background-color: #FF5252;
+}
+
+body section .card .red-dark {
+  background-color: #FF443E;
+}
+
+body section .card .yellow-light {
+  background-color: #ffd740;
+}
+
+body section .card .yellow-dark {
+  background-color: #ffc135;
+}
+
+body section .card .green-light {
+  background-color: #cedd4e;
+}
+
+body section .card .green-dark {
+  background-color: #C3D82C;
+}
+
+body section .card .blue-light {
+  background-color: #40C4FF;
+}
+
+body section .card .blue-dark {
+  background-color: #42A5F5;
+}
+
+body section .card .magenta-light {
+  background-color: #FF4081;
+}
+
+body section .card .magenta-dark {
+  background-color: #D81B60;
+}
+
+body section .card .cyan-light {
+  background-color: #18FFFF;
+}
+
+body section .card .cyan-dark {
+  background-color: #00ACC1;
+}
+
+body section .card .black-light {
+  background-color: #5b6f71;
+}
+
+body section .card .black-dark {
+  background-color: #252525;
+}
+
+body section .card .white {
+  background-color: #F5F5F5;
+}
+
+body section .card .text {
+  background-color: #a1b0b8;
+}
+
+body section .card .bg-light {
+  background-color: #263238;
+}
+
+body section .card .bg-dark {
+  background-color: #151515;
+}
+
+@media (max-width: 768px) {
+  body section .card,
+  body section .card .red-light,
+  body section .card .red-dark,
+  body section .card .yellow-light,
+  body section .card .yellow-dark,
+  body section .card .green-light,
+  body section .card .green-dark,
+  body section .card .blue-light,
+  body section .card .blue-dark,
+  body section .card .cyan-light,
+  body section .card .cyan-dark,
+  body section .card .magenta-light,
+  body section .card .magenta-dark,
+  body section .card .white,
+  body section .card .text,
+  body section .card .black-light,
+  body section .card .black-dark,
+  body section .card .bg-light,
+  body section .card .bg-dark {
+    height: 15vw;
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 900px) {
+  body section .card,
+  body section .card .red-light,
+  body section .card .red-dark,
+  body section .card .yellow-light,
+  body section .card .yellow-dark,
+  body section .card .green-light,
+  body section .card .green-dark,
+  body section .card .blue-light,
+  body section .card .blue-dark,
+  body section .card .cyan-light,
+  body section .card .cyan-dark,
+  body section .card .magenta-light,
+  body section .card .magenta-dark,
+  body section .card .white,
+  body section .card .text,
+  body section .card .black-light,
+  body section .card .black-dark,
+  body section .card .bg-light,
+  body section .card .bg-dark {
+    height: 10vw;
+    width: 10vw;
+  }
+}
+
+.pink {
+  background-color: #EC407A !important;
+}
+
+.row {
+  margin-bottom: 0;
+}
+</style>
+<script>
+(function(u){function loadCSS(e,t,n){"use strict";function r(){for(var t,i=0;i<d.length;i++)d[i].href&&d[i].href.indexOf(e)>-1&&(t=!0);t?o.media=n||"all":setTimeout(r)}var o=window.document.createElement("link"),i=t||window.document.getElementsByTagName("script")[0],d=window.document.styleSheets;return o.rel="stylesheet",o.href=e,o.media="only x",i.parentNode.insertBefore(o,i),r(),o}for(var i in u){loadCSS(u[i]);}}(['css/style.css']));
+</script>
+<noscript>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</noscript><script>!function(){function d(a,b,c){a.addEventListener?a.addEventListener(b,c,!1):a.attachEvent&&a.attachEvent("on"+b,c)}function e(){if(window.localStorage&&window.XMLHttpRequest)if(window.localStorage&&localStorage.font_css_cache&&localStorage.font_css_cache_file===c)f(localStorage.font_css_cache);else{var a=new XMLHttpRequest;a.open("GET",c,!0);d(a,"load",function(){4===a.readyState&&(f(a.responseText),localStorage.font_css_cache=a.responseText,localStorage.font_css_cache_file=c)});a.send()}else{var b=document.createElement("link");b.href=c;b.rel="stylesheet";b.type="text/css";document.getElementsByTagName("head")[0].appendChild(b);document.cookie="font_css_cache"}}function f(a){var b=document.createElement("style");b.innerHTML=a;document.getElementsByTagName("head")[0].appendChild(b)}var c="css/font.css";window.localStorage&&localStorage.font_css_cache||-1<document.cookie.indexOf("font_css_cache")?e():d(window,"load",e)}();</script></head><body><header class="col-xs-12"><div class="container center-xs"><img src="files/img/terminal.svg"><h1>materialshell</h1><h4>material color based dark theme<br>for your shell.</h4><br><a href="https://github.com/carloscuesta/materialshell" class="waves-effect waves-light btn red pink">Github</a></div></header><section class="introduction"><div class="container"><div class="row center-xs"><div class="col xs-12"><p>Material Shell is a dark theme for your zsh-terminal based on Google's material design colors. Includes two versions of materialshell: Dark and Oceanic.</p><p>The color scheme supports OS X, Linux and Windows.</p><p>To install and use materialshell, read the documentation from the Github repository.</p><a href="https://github.com/carloscuesta/materialshell" class="waves-effect waves-light btn red pink docs">Docs</a></div></div></div></section><section class="colors"><div class="container center-xs"><h5>Colors</h5><div class="row"><div class="col s6 m15 l15"><div class="card hoverable"><a href="http://www.color-hex.com/color/FF5252"><div class="col s6 red-light"></div></a><a href="http://www.color-hex.com/color/FF443E"><div class="col s6 red-dark"></div></a></div></div><div class="col s6 m15 l15"><div class="card hoverable"><a href="http://www.color-hex.com/color/ffd740"><div class="col s6 yellow-light"></div></a><a href="http://www.color-hex.com/color/ffc135"><div class="col s6 yellow-dark"></div></a></div></div><div class="col s6 m15 l15"><div class="card hoverable"><a href="http://www.color-hex.com/color/cedd4e"><div class="col s6 green-light"></div></a><a href="http://www.color-hex.com/color/C3D82C"><div class="col s6 green-dark"></div></a></div></div><div class="col s6 m15 l15"><div class="card hoverable"><a href="http://www.color-hex.com/color/40C4FF"><div class="col s6 blue-light"></div></a><a href="http://www.color-hex.com/color/42A5F5"><div class="col s6 blue-dark"></div></a></div></div><div class="col s6 m15 l15"><div class="card hoverable"><a href="http://www.color-hex.com/color/18FFFF"><div class="col s6 cyan-light"></div></a><a href="http://www.color-hex.com/color/00ACC1"><div class="col s6 cyan-dark"></div></a></div></div><div class="col s6 m15 l15"><div class="card hoverable"><a href="http://www.color-hex.com/color/FF4081"><div class="col s6 magenta-light"></div></a><a href="http://www.color-hex.com/color/D81B60"><div class="col s6 magenta-dark"></div></a></div></div><div class="col s6 m15 l15"><div class="card hoverable"><a href="http://www.color-hex.com/color/F5F5F5"><div class="col s12 white"></div></a></div></div><div class="col s6 m15 l15"><div class="card hoverable"><a href="http://www.color-hex.com/color/a1b0b8"><div class="col s12 text"></div></a></div></div><div class="col s6 m15 l15"><div class="card hoverable"><a href="http://www.color-hex.com/color/5b6f71"><div class="col s6 black-light"></div></a><a href="http://www.color-hex.com/color/252525"><div class="col s6 black-dark"></div></a></div></div><div class="col s6 m15 l15"><div class="card hoverable"><a href="http://www.color-hex.com/color/263238"><div class="col s6 bg-light"></div></a><a href="http://www.color-hex.com/color/151515"><div class="col s6 bg-dark"></div></a></div></div></div></div></section><footer><div class="container"><span>materialshell © 2015</span><br><span class="madeby">Made with</span><span class="heart"> ♥</span><span class="madeby"> by</span><a href="https://twitter.com/crloscuesta"> Carlos Cuesta</a></div></footer></body><script src="js/script.js"></script></html>

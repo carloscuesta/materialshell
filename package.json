@@ -1,0 +1,48 @@
+{
+  "name": "materialshell",
+  "version": "0.0.0",
+  "description": "materialshell website",
+  "license": "MIT",
+  "main": "",
+  "repository": "materialshell",
+  "author": {
+    "name": "Carlos Cuesta",
+    "email": "crloscuesta@gmail.com",
+    "url": ""
+  },
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp build",
+    "optimize": "gulp optimize",
+    "deploy": "gulp deploy",
+    "test": "mocha"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "browser-sync": "^2.10.0",
+    "critical": "^0.6.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-beautify": "^2.0.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssimport": "^2.1.1-b",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.1",
+    "gulp-uncss": "^1.0.4",
+    "vinyl-ftp": "^0.4.5"
+  },
+  "devDependencies": {
+    "flexboxgrid": "^6.3.0",
+    "materialize-css": "^0.97.3",
+    "mocha": "*"
+  }
+}
