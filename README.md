@@ -24,7 +24,7 @@ Before starting, you will need to **download material shell**:
 
 ### Zsh
 
-To setup the prompt, you will need to have [```materialshell.zsh-theme```](https://github.com/carloscuesta/materialshell/tree/master/zsh/materialshell.zsh-theme) and [Oh-My-Zsh](http://ohmyz.sh/) installed. Then follow the next steps:
+To setup the prompt, you will need to have [```materialshell.zsh-theme```](https://github.com/carloscuesta/materialshell/blob/master/zsh/materialshelldark.zsh-theme) and [Oh-My-Zsh](http://ohmyz.sh/) installed. Then follow the next steps:
 
 #### [Oh-My-Zsh](http://ohmyz.sh/)
 
