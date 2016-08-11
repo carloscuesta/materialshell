@@ -5,7 +5,7 @@
 
 ![materialshell](https://cloud.githubusercontent.com/assets/7629661/11194912/348e69f6-8caf-11e5-97ec-876bd6565125.gif)
 
-> A [material color based](https://www.google.com/design/spec/style/color.html#color-color-palette) dark theme for your shell.  
+> A [material color based](https://www.google.com/design/spec/style/color.html#color-color-palette) dark theme for your shell.
 
 ## Colors
 
@@ -15,9 +15,9 @@ These are the colors used in both versions of the material shell (Dark & Oceanic
 
 ## Download
 
-Before starting, you will need to **download material shell**: 
+Before starting, you will need to **download material shell**:
 
-- Clone the repository```git clone https://github.com/carloscuesta/materialshell.git```. 
+- Clone the repository```git clone https://github.com/carloscuesta/materialshell.git```.
 - Download the ```materialshell.zip``` from [GitHub here](https://github.com/carloscuesta/materialshell/archive/master.zip).
 
 ## Shell Prompt
@@ -34,11 +34,11 @@ To setup the prompt, you will need to have [```materialshell.zsh-theme```](https
 
 ## Shell Colors
 
-By **default** the **colors** are **enabled** with the **zsh theme**. These are the color palettes for your Terminal emulators depending on your system and the emulator itself. [OS X](https://github.com/carloscuesta/materialshell#os-x), [Linux](https://github.com/carloscuesta/materialshell#linux), [Windows](https://github.com/carloscuesta/materialshell#windows), choose the one you use. 
+By **default** the **colors** are **enabled** with the **zsh theme**. These are the color palettes for your Terminal emulators depending on your system and the emulator itself. [OS X](https://github.com/carloscuesta/materialshell#os-x), [Linux](https://github.com/carloscuesta/materialshell#linux), [Windows](https://github.com/carloscuesta/materialshell#windows), choose the one you use.
 
 ### OS X
 
-#### [iTerm](https://www.iterm2.com/) 
+#### [iTerm](https://www.iterm2.com/)
 
 1. ```iTerm > Preferences > Profiles > Colors Tab```.
 2. ```Color Presets ... > Load Presets > Import```.
@@ -52,16 +52,27 @@ By **default** the **colors** are **enabled** with the **zsh theme**. These are 
 2. Select one of the themes located at [```osx/terminal/```](https://github.com/carloscuesta/materialshell/tree/master/osx/terminal).
 3. Set as **default** the profile with the material shell theme selecting the profile and clicking on the ```Default``` button.
 
+### HyperTerm
+
+1. Open HyperTerm's preferences with your editor - Tip: `CMD+,` or at `~/.hyperterm.js`.
+2. Add `hyperterm-materialshell` to your plugins list:
+```js
+plugins: ['hyperterm-materialshell']
+```
+3. Reload HyperTerm - `CMD+Shift+R`.
+
+See [hyperterm-materialshell](https://github.com/carloscuesta/hyperterm-materialshell).
+
 ### Linux
 
-By default the colors are enabled with the ```.zsh-theme```. As there are a lot of different Linux terminals, If you are not seeing the colors well, you can setup the same colors using the [color palette codes](https://github.com/carloscuesta/materialshell/blob/master/colors.md). 
+By default the colors are enabled with the ```.zsh-theme```. As there are a lot of different Linux terminals, If you are not seeing the colors well, you can setup the same colors using the [color palette codes](https://github.com/carloscuesta/materialshell/blob/master/colors.md).
 
 ### Windows
 
 #### Cmder
 
 1. ```Cmder > Settings > Import ... ```
-2. Select one of the themes located at [```windows/cmder/```](https://github.com/carloscuesta/materialshell/tree/master/windows/cmder). 
+2. Select one of the themes located at [```windows/cmder/```](https://github.com/carloscuesta/materialshell/tree/master/windows/cmder).
 
 Note: _Windows is a color scheme version only._
 
