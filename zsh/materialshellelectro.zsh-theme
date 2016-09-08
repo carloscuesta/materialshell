@@ -13,33 +13,35 @@ eval grey='$FG[145]'
 
 function _xt_first_line_prefix()
 {
-    echo "%{${fg[cyan]}%}%B┌─[%b "
+  # ┌─╼  ┌─
+  echo "%{${fg[cyan]}%}%B┌─[%b "
 }
 
 function _xt_first_line_suffix()
 {
-    echo "%{${fg[cyan]}%}%B]%b"
+  echo "%{${fg[cyan]}%}%B]%b"
 }
 
 function _xt_second_line_prefix()
 {
-    echo "%{${fg[cyan]}%}%B└─[%b "
+  # └────╼  └─
+  echo "%{${fg[cyan]}%}%B└─[%b "
 }
 
 function _xt_shell_suffix()
 {
-    # Choose from these λ ⇒ Ψ χ ✪ ⚛ ✎  ϟ ϡ ॐ ༒ ツ 𐌎 𐌈 ⇪ ⇥
-    echo " %{%(#~%{${fg[red]}%}~%{${fg[blue]}%})%}%B%(!:ϟ:λ) %{${reset_color}%}%b"
+  # Choose from these λ ⇒ Ψ χ ✪ ⚛ ✎  ϟ ϡ ॐ ༒ ツ 𐌎 𐌈 ⇪ ⇥ ⬢
+  echo " %{%(#~%{${fg[red]}%}~%{${fg[blue]}%})%}%B%(!:ϟ:λ) %{${reset_color}%}%b"
 }
 
 function _xt_retcode()
 {
-    # Choose from these x, ×, X, ✕, ☓, ✖, ✗, ✘, ✓, ✔
-    echo "%(?:%{$fg_bold[green]%}✓:%{$fg_bold[red]%}×) %{${fg[cyan]}%}%B]%b"
+  # Choose from these x, ×, X, ✕, ☓, ✖, ✗, ✘, ✓, ✔, ⦿, ⦾
+  echo "%(?:%{$fg_bold[green]%}✓:%{$fg_bold[red]%}×) %{${fg[cyan]}%}%B]%b"
 }
 
 function _xt_user_host_dir() {
-    echo "%(!:%{$red%}:%{$green%})%n%{${fg[grey]}%}%B Ξ %b%{$cyan%}%m%{$reset_color%} %{${fg[grey]}%}%BΞ%b %{$green%}%2~%{$reset_color%} "
+  echo "%(!:%{$red%}:%{$green%})%n%{${fg[grey]}%}%B Ξ %b%{$cyan%}%m%{$reset_color%} %{${fg[grey]}%}%BΞ%b %{$green%}%2~%{$reset_color%} "
 }
 
 PROMPT='$(_xt_first_line_prefix)$(_xt_user_host_dir)$(git_prompt_info)$(_xt_first_line_suffix)
@@ -47,7 +49,7 @@ $(_xt_second_line_prefix)$(_xt_retcode)$(_xt_shell_suffix)'
 
 PROMPT2='%{$cyan%}◀%{$reset_color%} '
 
-RPROMPT='%{$(echotc UP 1)%}$(git_prompt_short_sha) %{$green%}%T%{$(echotc DO 1)%}%{$reset_color%}'
+RPROMPT='%{$(echotc UP 1)%}%{${fg[cyan]}%}%B[%b$(git_prompt_short_sha) %{$green%}%T %{${fg[cyan]}%}%B]%b%{$(echotc DO 1)%}%{$reset_color%}'
 
 if [[ $USER == "root" ]]; then
   CARETCOLOR="$red"
@@ -70,8 +72,8 @@ ZSH_THEME_GIT_PROMPT_UNMERGED=" %{$cyan%}§{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_UNTRACKED=" %{$grey%}◒{$reset_color%}"
 
 # Format for git_prompt_long_sha() and git_prompt_short_sha()
-ZSH_THEME_GIT_PROMPT_SHA_BEFORE="%{$grey%}[%{$cyan%}"
-ZSH_THEME_GIT_PROMPT_SHA_AFTER="%{$grey%}]"
+ZSH_THEME_GIT_PROMPT_SHA_BEFORE="%{$cyan%} "
+ZSH_THEME_GIT_PROMPT_SHA_AFTER=" %{${fg[grey]}%}%BΞ%b"
 
 # LS colors, made with http://geoff.greer.fm/lscolors/
 export LSCOLORS="exfxcxdxbxegedabagacad"
