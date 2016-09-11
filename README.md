@@ -82,3 +82,7 @@ Note: _Windows is a color scheme version only._
 | Dark | Oceanic |
 |:-:|:-:|
 | ![material shell dark](https://cloud.githubusercontent.com/assets/7629661/11183296/3fd39d7e-8c71-11e5-8a91-8713a9176a5c.png) | ![material shell oceanic](https://cloud.githubusercontent.com/assets/7629661/11183295/3fd236d2-8c71-11e5-8e56-bbf5c50686ce.png) |
+
+| Electro Dark | Electro Oceanic |
+|:-:|:-:|
+| ![electro dark](https://cloud.githubusercontent.com/assets/5154582/18353205/c8ee2db4-75fe-11e6-8779-04424d1ee7bb.png) | ![electro oceanic](https://cloud.githubusercontent.com/assets/5154582/18353215/d10c3270-75fe-11e6-85d8-dfeaf780308e.png) |
