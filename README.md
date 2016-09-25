@@ -1,21 +1,21 @@
-# material shell
+# materialshell
 
 [![GitHub license](https://img.shields.io/github/license/carloscuesta/materialshell.svg?style=flat-square)](https://github.com/carloscuesta/materialshell)
 [![GitHub release](https://img.shields.io/github/release/carloscuesta/materialshell.svg?style=flat-square)](https://github.com/carloscuesta/materialshell)
 
 ![materialshell](https://cloud.githubusercontent.com/assets/7629661/11194912/348e69f6-8caf-11e5-97ec-876bd6565125.gif)
 
-> A [material color based](https://www.google.com/design/spec/style/color.html#color-color-palette) dark theme for your shell.
+> A [material design](https://material.google.com/style/color.html) theme for your shell with a good contrast and color pops at the important parts. Designed to be easy on the eyes.
 
 ## Colors
 
-These are the colors used in both versions of the material shell (Dark & Oceanic).
+These are the colors used in both versions of the materialshell (Dark & Oceanic).
 
-![material shell color palette](https://cloud.githubusercontent.com/assets/7629661/11169947/1337b238-8bc6-11e5-8eaa-37d435b9ecee.png)
+![materialshell color palette](https://cloud.githubusercontent.com/assets/7629661/11169947/1337b238-8bc6-11e5-8eaa-37d435b9ecee.png)
 
 ## Download
 
-Before starting, you will need to **download material shell**:
+Before starting, you will need to **download materialshell**:
 
 - Clone the repository```git clone https://github.com/carloscuesta/materialshell.git```.
 - Download the ```materialshell.zip``` from [GitHub here](https://github.com/carloscuesta/materialshell/archive/master.zip).
@@ -24,12 +24,12 @@ Before starting, you will need to **download material shell**:
 
 ### Zsh
 
-To setup the prompt, you will need to have [```materialshell.zsh-theme```](https://github.com/carloscuesta/materialshell/blob/master/zsh/materialshelldark.zsh-theme) and [Oh-My-Zsh](http://ohmyz.sh/) installed. Then follow the next steps:
+To setup the prompt, you will need to have [```materialshell.zsh-theme```](https://github.com/carloscuesta/materialshell/blob/master/zsh/materialshell-dark.zsh-theme) and [Oh-My-Zsh](http://ohmyz.sh/) installed. Then follow the next steps:
 
 #### [Oh-My-Zsh](http://ohmyz.sh/)
 
-1. Copy ```zsh/materialshell.zsh-theme``` _(dark or oceanic)_ to ```~/.oh-my-zsh/themes/``` folder.
-2. Modify ```.zshrc``` to enable the theme with ```ZSH_THEME="materialshelldark"``` or ```ZSH_THEME="materialshelloceanic"``` depending on the version you want.
+1. Copy ```zsh/materialshell.zsh-theme``` _(dark, oceanic or light)_ to ```~/.oh-my-zsh/themes/``` folder.
+2. Modify ```.zshrc``` to enable the theme with ```ZSH_THEME="materialshell-dark"``` or ```ZSH_THEME="materialshell-oceanic"``` depending on the version you want.
 3. Save and restart your terminal.
 
 ## Shell Colors
@@ -44,13 +44,13 @@ By **default** the **colors** are **enabled** with the **zsh theme**. These are 
 2. ```Color Presets ... > Load Presets > Import```.
 3. Select one of the themes located at [```osx/iterm/```](https://github.com/carloscuesta/materialshell/tree/master/osx/iterm).
 4. ```Color Presets ... > Load Presets ``` and select the one you've imported at step 3.
-5. Set as **default** the profile with the material shell theme ```Profiles > Other Actions ... > Set as default```.
+5. Set as **default** the profile with the materialshell theme ```Profiles > Other Actions ... > Set as default```.
 
 #### Terminal
 
 1. ```Terminal > Preferences > Gear Icon > Import```
 2. Select one of the themes located at [```osx/terminal/```](https://github.com/carloscuesta/materialshell/tree/master/osx/terminal).
-3. Set as **default** the profile with the material shell theme selecting the profile and clicking on the ```Default``` button.
+3. Set as **default** the profile with the materialshell theme selecting the profile and clicking on the ```Default``` button.
 
 ### [HyperTerm](https://github.com/carloscuesta/hyperterm-materialshell)
 
@@ -81,4 +81,4 @@ Note: _Windows is a color scheme version only._
 
 | Dark | Oceanic |
 |:-:|:-:|
-| ![material shell dark](https://cloud.githubusercontent.com/assets/7629661/11183296/3fd39d7e-8c71-11e5-8a91-8713a9176a5c.png) | ![material shell oceanic](https://cloud.githubusercontent.com/assets/7629661/11183295/3fd236d2-8c71-11e5-8e56-bbf5c50686ce.png) |
+| ![materialshell dark](https://cloud.githubusercontent.com/assets/7629661/11183296/3fd39d7e-8c71-11e5-8a91-8713a9176a5c.png) | ![materialshell oceanic](https://cloud.githubusercontent.com/assets/7629661/11183295/3fd236d2-8c71-11e5-8e56-bbf5c50686ce.png) |
