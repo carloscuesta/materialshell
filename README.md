@@ -52,17 +52,17 @@ By **default** the **colors** are **enabled** with the **zsh theme**. These are 
 2. Select one of the themes located at [```osx/terminal/```](https://github.com/carloscuesta/materialshell/tree/master/osx/terminal).
 3. Set as **default** the profile with the materialshell theme selecting the profile and clicking on the ```Default``` button.
 
-### [HyperTerm](https://github.com/carloscuesta/hyperterm-materialshell)
+### [Hyper](https://github.com/carloscuesta/hyper-materialshell)
 
-1. Open HyperTerm's preferences with your editor - Tip: `CMD+,` or at `~/.hyperterm.js`.
-2. Add `hyperterm-materialshell` to your plugins list:
+1. Open Hyper's preferences with your editor - Tip: `CMD+,` or at `~/.hyper.js`.
+2. Add `hyper-materialshell` to your plugins list:
 3. Reload HyperTerm - `CMD+Shift+R`.
 
 ```js
-plugins: ['hyperterm-materialshell']
+plugins: ['hyper-materialshell']
 ```
 
-See [hyperterm-materialshell](https://github.com/carloscuesta/hyperterm-materialshell).
+See [hyper-materialshell](https://github.com/carloscuesta/hyper-materialshell).
 
 ### Linux
 
