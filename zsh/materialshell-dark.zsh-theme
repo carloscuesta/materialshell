@@ -10,7 +10,7 @@ eval cyan='$FG[037]'
 eval white='$FG[231]'
 eval grey='$FG[145]'
 
-PROMPT='$(_user_host)${_current_dir}$(git_prompt_info)
+PROMPT='$(_virtualenv)$(_user_host)${_current_dir}$(git_prompt_info)
 %{$white%}>%{$reset_color%} '
 
 PROMPT2='%{$grey%}◀%{$reset_color%} '
@@ -36,6 +36,10 @@ function _ruby_version() {
   if {echo $fpath | grep -q "plugins/rvm"}; then
     echo "%{$grey%}$(rvm_prompt_info)%{$reset_color%}"
   fi
+}
+
+function _virtualenv(){
+  [ $VIRTUAL_ENV ] && echo " %{$cyan%}("`basename $VIRTUAL_ENV`")%{$reset_color%} "
 }
 
 # Determine the time since last commit. If branch is clean,
