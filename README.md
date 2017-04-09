@@ -24,12 +24,12 @@ Before starting, you will need to **download materialshell**:
 
 ### Zsh
 
-To setup the prompt, you will need to have [```materialshell.zsh-theme```](https://github.com/carloscuesta/materialshell/blob/master/zsh/materialshell-dark.zsh-theme) and [Oh-My-Zsh](http://ohmyz.sh/) installed. Then follow the next steps:
+To setup the prompt, you will need to have [```materialshell.zsh-theme```](https://github.com/carloscuesta/materialshell/blob/master/zsh/materialshell.zsh-theme) and [Oh-My-Zsh](http://ohmyz.sh/) installed. Then follow the next steps:
 
 #### [Oh-My-Zsh](http://ohmyz.sh/)
 
-1. Copy ```zsh/materialshell.zsh-theme``` _(dark, oceanic or light)_ to ```~/.oh-my-zsh/themes/``` folder.
-2. Modify ```.zshrc``` to enable the theme with ```ZSH_THEME="materialshell-dark"``` or ```ZSH_THEME="materialshell-oceanic"``` depending on the version you want.
+1. Copy ```zsh/materialshell.zsh-theme``` to ```~/.oh-my-zsh/themes/``` folder.
+2. Modify ```.zshrc``` to enable the theme with ```ZSH_THEME="materialshell"```.
 3. Save and restart your terminal.
 
 ## Shell Colors
