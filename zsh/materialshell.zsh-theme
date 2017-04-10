@@ -38,9 +38,9 @@ ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%} "
 
 ZSH_THEME_GIT_PROMPT_DIRTY=" %{$red%}✗%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_CLEAN=" %{$green%}✔%{$reset_color%}"
-ZSH_THEME_GIT_PROMPT_BEHIND_REMOTE=" %{$red%}⬇%{$reset_color%}"
-ZSH_THEME_GIT_PROMPT_AHEAD_REMOTE=" %{$green%}⬆%{$reset_color%}"
-ZSH_THEME_GIT_PROMPT_DIVERGED_REMOTE="⬌%{$reset_color%}"
+ZSH_THEME_GIT_PROMPT_BEHIND_REMOTE="%{$red%}⬇%{$reset_color%}"
+ZSH_THEME_GIT_PROMPT_AHEAD_REMOTE="%{$green%}⬆%{$reset_color%}"
+ZSH_THEME_GIT_PROMPT_DIVERGED_REMOTE="%{$yellow%}⬌%{$reset_color%}"
 
 # Format for git_prompt_long_sha() and git_prompt_short_sha()
 ZSH_THEME_GIT_PROMPT_SHA_BEFORE="%{$reset_color%}[%{$yellow%}"
