@@ -85,4 +85,4 @@ This theme is also available as a theme for Atom named [material-dark-syntax](ht
 
 | Dark | Oceanic |
 |:-:|:-:|
-| ![materialshell dark](https://cloud.githubusercontent.com/assets/7629661/11183296/3fd39d7e-8c71-11e5-8a91-8713a9176a5c.png) | ![materialshell oceanic](https://cloud.githubusercontent.com/assets/7629661/11183295/3fd236d2-8c71-11e5-8e56-bbf5c50686ce.png) |
+| ![materialshell dark](https://cloud.githubusercontent.com/assets/7629661/24923003/7b2ffa8a-1ef0-11e7-9092-dea1c694f667.png) | ![materialshell oceanic](https://cloud.githubusercontent.com/assets/7629661/24923004/7b4efe9e-1ef0-11e7-8804-ab3090ec1394.png) |
