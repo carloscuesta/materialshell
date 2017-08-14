@@ -77,9 +77,9 @@ By default the colors are enabled with the ```.zsh-theme```. As there are a lot 
 
 Note: _Windows is a color scheme version only._
 
-### [Atom](https://github.com/carloscuesta/material-syntax)
+### [Atom](https://github.com/carloscuesta/sprinkles-syntax)
 
-This theme is also available as a theme for Atom named [material-dark-syntax](https://github.com/carloscuesta/material-syntax)
+This theme is also available as a theme for Atom named [sprinkles-syntax](https://github.com/carloscuesta/sprinkles-syntax)
 
 ## Screenshots
 
