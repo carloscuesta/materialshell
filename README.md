@@ -11,30 +11,51 @@
   <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/NbtLi32wZqEa13D5s5unT5w1/carloscuesta/materialshell.svg' />
 </a>
 
+## Install
+
+### [antigen](http://antigen.sharats.me)
+
+Add the following snippet to your `.zshrc` file after `antigen use oh-my-zsh`:
+
+```
+antigen theme carloscuesta/materialshell zsh/materialshell
+```
+
+### [antibody](https://github.com/getantibody/antibody)
+
+Add the following snippet to your `.zshrc` file:
+
+```
+antibody bundle carloscuesta/materialshell
+```
+
+### [zgen](https://github.com/tarjoilija/zgen)
+
+Add the following snippet to your `.zshrc` file:
+
+```
+zgen load carloscuesta/materialshell materialshell
+```
+
+### [zplug](https://github.com/zplug/zplug)
+
+Add the following snippet to your `.zshrc` file:
+
+```
+zplug carloscuesta/materialshell, use:materialshell, from:github, as:theme
+```
+
+### Manual
+
+1. Copy ```zsh/materialshell.zsh-theme``` to ```~/.oh-my-zsh/custom/``` folder.
+2. Modify ```.zshrc``` to enable the theme with ```ZSH_THEME="materialshell"```.
+3. Save and restart your terminal.
+
 ## Colors
 
 These are the colors used in both versions of the materialshell (Dark & Oceanic).
 
 ![materialshell color palette](https://cloud.githubusercontent.com/assets/7629661/11169947/1337b238-8bc6-11e5-8eaa-37d435b9ecee.png)
-
-## Download
-
-Before starting, you will need to **download materialshell**:
-
-- Clone the repository```git clone https://github.com/carloscuesta/materialshell.git```.
-- Download the ```materialshell.zip``` from [GitHub here](https://github.com/carloscuesta/materialshell/archive/master.zip).
-
-## Shell Prompt
-
-### Zsh
-
-To setup the prompt, you will need to have [```materialshell.zsh-theme```](https://github.com/carloscuesta/materialshell/blob/master/zsh/materialshell.zsh-theme) and [Oh-My-Zsh](http://ohmyz.sh/) installed. Then follow the next steps:
-
-#### [Oh-My-Zsh](http://ohmyz.sh/)
-
-1. Copy ```zsh/materialshell.zsh-theme``` to ```~/.oh-my-zsh/themes/``` folder.
-2. Modify ```.zshrc``` to enable the theme with ```ZSH_THEME="materialshell"```.
-3. Save and restart your terminal.
 
 ## Shell Colors
 
