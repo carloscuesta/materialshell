@@ -7,10 +7,6 @@
 
 > A [material design](https://material.google.com/style/color.html) theme for your shell with a good contrast and color pops at the important parts. Designed to be easy on the eyes.
 
-<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/NbtLi32wZqEa13D5s5unT5w1/carloscuesta/materialshell'>
-  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/NbtLi32wZqEa13D5s5unT5w1/carloscuesta/materialshell.svg' />
-</a>
-
 ## Install
 
 ### [antigen](http://antigen.sharats.me)
@@ -47,7 +43,7 @@ zplug carloscuesta/materialshell, use:materialshell, from:github, as:theme
 
 ### Manual
 
-1. Copy ```zsh/materialshell.zsh-theme``` to ```~/.oh-my-zsh/custom/``` folder.
+1. Copy ```zsh/materialshell.zsh``` to ```~/.oh-my-zsh/custom/materialshell.zsh-theme``` folder.
 2. Modify ```.zshrc``` to enable the theme with ```ZSH_THEME="materialshell"```.
 3. Save and restart your terminal.
 
