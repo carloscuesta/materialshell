@@ -29,7 +29,7 @@ This directory contains the color themes for specific terminal emulators organiz
 ### [Cmder](http://cmder.net)
 
 1. ```Cmder > Settings > Import ... ```
-2. Select one of the themes located at [```shell-color-themes/windows/cmder```](https://github.com/carloscuesta/materialshell/tree/master/shell-color-themes/windows/cmder).
+2. Pick the file located at [```shell-color-themes/windows/cmder```](https://github.com/carloscuesta/materialshell/tree/master/shell-color-themes/windows/cmder). It will include a Windows version of both themes.
 
 Note: _Windows is a color scheme version only._
 
