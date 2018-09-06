@@ -33,8 +33,7 @@ This directory contains the color themes for specific terminal emulators organiz
 
 Note: _Windows is a color scheme version only._
 
-- [materialshell-dark.xml](https://github.com/carloscuesta/materialshell/blob/master/shell-color-themes/windows/materialshell-dark.xml)
-- [materialshell-oceanic.xml](https://github.com/carloscuesta/materialshell/blob/master/shell-color-themes/windows/materialshell-oceanic.xml)
+- [materialshell.xml](https://github.com/carloscuesta/materialshell/blob/master/shell-color-themes/windows/materialshell.xml)
 
 ### [Hyper](https://github.com/carloscuesta/hyper-materialshell)
 
@@ -47,6 +46,15 @@ plugins: ['hyper-materialshell']
 ```
 
 See [hyper-materialshell](https://github.com/carloscuesta/hyper-materialshell).
+
+## Cygwin
+
+### [Mintty](https://mintty.github.io/)
+
+1. Copy [theme file](https://github.com/carloscuesta/materialshell/tree/master/shell-color-themes/cygwin/oceanic) into the directory `~/.mintty/themes`
+2. Open ```Mintty > Options > Theme ``` and select the new theme
+
+- [oceanic](https://github.com/carloscuesta/materialshell/tree/master/shell-color-themes/cygwin/oceanic)
 
 ## Manual
 

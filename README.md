@@ -59,6 +59,7 @@ By **default** colors come built-in with the zsh theme. These are the **color th
 – [macOS Terminal](https://github.com/carloscuesta/materialshell/tree/master/shell-color-themes#terminal)
 - [Cmder](https://github.com/carloscuesta/materialshell/tree/master/shell-color-themes#cmder)
 - [Hyper](https://github.com/carloscuesta/materialshell/tree/master/shell-color-themes#hyper)
+- [Mintty](https://github.com/carloscuesta/materialshell/tree/master/shell-color-themes#mintty)
 - [Other (manual)](https://github.com/carloscuesta/materialshell/tree/master/shell-color-themes#manual)
 
 ## Screenshots
