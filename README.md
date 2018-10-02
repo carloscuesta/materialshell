@@ -43,7 +43,7 @@ zplug carloscuesta/materialshell, use:materialshell, from:github, as:theme
 
 ### Manual
 
-1. Copy ```zsh/materialshell.zsh``` to ```~/.oh-my-zsh/custom/materialshell.zsh-theme``` folder.
+1. Copy ```materialshell.zsh``` to ```~/.oh-my-zsh/custom/materialshell.zsh-theme``` folder.
 2. Modify ```.zshrc``` to enable the theme with ```ZSH_THEME="materialshell"```.
 3. Save and restart your terminal.
 
