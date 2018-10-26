@@ -14,7 +14,7 @@
 Add the following snippet to your `.zshrc` file after `antigen use oh-my-zsh`:
 
 ```
-antigen theme carloscuesta/materialshell zsh/materialshell
+antigen theme carloscuesta/materialshell materialshell
 ```
 
 ### [antibody](https://github.com/getantibody/antibody)
