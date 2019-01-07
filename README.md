@@ -13,7 +13,7 @@
 
 Add the following snippet to your `.zshrc` file after `antigen use oh-my-zsh`:
 
-```
+```sh
 antigen theme carloscuesta/materialshell materialshell
 ```
 
@@ -21,7 +21,7 @@ antigen theme carloscuesta/materialshell materialshell
 
 Add the following snippet to your `.zshrc` file:
 
-```
+```sh
 antibody bundle carloscuesta/materialshell
 ```
 
@@ -29,7 +29,7 @@ antibody bundle carloscuesta/materialshell
 
 Add the following snippet to your `.zshrc` file:
 
-```
+```sh
 zgen load carloscuesta/materialshell materialshell
 ```
 
@@ -37,14 +37,22 @@ zgen load carloscuesta/materialshell materialshell
 
 Add the following snippet to your `.zshrc` file:
 
-```
+```sh
 zplug carloscuesta/materialshell, use:materialshell, from:github, as:theme
 ```
 
 ### Manual
 
-1. Copy ```materialshell.zsh``` to ```~/.oh-my-zsh/custom/materialshell.zsh-theme``` folder.
-2. Modify ```.zshrc``` to enable the theme with ```ZSH_THEME="materialshell"```.
+1. Run the following command in your terminal:
+
+```sh
+curl -L -o ~/.oh-my-zsh/custom/themes/materialshell.zsh-theme https://raw.githubusercontent.com/carloscuesta/materialshell/master/materialshell.zsh
+```
+
+If you don't have curl, just copy `materialshell.zsh` to `~/.oh-my-zsh/custom/themes/materialshell.zsh-theme`.
+
+2. Modify `.zshrc` to enable the theme with `ZSH_THEME="materialshell"`.
+
 3. Save and restart your terminal.
 
 ## Colors
@@ -64,5 +72,5 @@ By **default** colors come built-in with the zsh theme. These are the **color th
 ## Screenshots
 
 | Dark | Oceanic |
-|:-:|:-:|
+| :--: | :-----: |
 | ![materialshell dark](https://cloud.githubusercontent.com/assets/7629661/24923003/7b2ffa8a-1ef0-11e7-9092-dea1c694f667.png) | ![materialshell oceanic](https://cloud.githubusercontent.com/assets/7629661/24923004/7b4efe9e-1ef0-11e7-8804-ab3090ec1394.png) |
