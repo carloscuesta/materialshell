@@ -43,7 +43,9 @@ zplug carloscuesta/materialshell, use:materialshell, from:github, as:theme
 
 ### Manual
 
-1. Run the following command in your terminal:
+1. Install [`oh-my-zsh`](https://ohmyz.sh/#install)
+
+2. Run the following command in your terminal:
 
 ```sh
 curl -L -o ~/.oh-my-zsh/custom/themes/materialshell.zsh-theme https://raw.githubusercontent.com/carloscuesta/materialshell/master/materialshell.zsh
@@ -51,9 +53,9 @@ curl -L -o ~/.oh-my-zsh/custom/themes/materialshell.zsh-theme https://raw.github
 
 If you don't have curl, just copy `materialshell.zsh` to `~/.oh-my-zsh/custom/themes/materialshell.zsh-theme`.
 
-2. Modify `.zshrc` to enable the theme with `ZSH_THEME="materialshell"`.
+3. Modify `.zshrc` to enable the theme with `ZSH_THEME="materialshell"`.
 
-3. Save and restart your terminal.
+4. Save and restart your terminal.
 
 ## Colors
 
