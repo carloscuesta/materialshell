@@ -25,6 +25,15 @@ Add the following snippet to your `.zshrc` file:
 antibody bundle carloscuesta/materialshell
 ```
 
+### [Fig](https://fig.io)
+
+Fig adds apps, shortcuts, and autocomplete to your existing terminal.
+
+
+Install `materialshell` in just one click.
+
+<a href="https://fig.io/plugins/other/materialshell_carloscuesta" target="_blank"><img src="https://fig.io/badges/install-with-fig.svg" /></a>
+
 ### [zgen](https://github.com/tarjoilija/zgen)
 
 Add the following snippet to your `.zshrc` file:
