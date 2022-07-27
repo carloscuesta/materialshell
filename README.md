@@ -47,7 +47,7 @@ zgen load carloscuesta/materialshell materialshell
 Add the following snippet to your `.zshrc` file:
 
 ```sh
-zplug carloscuesta/materialshell, use:materialshell, from:github, as:theme
+zplug carloscuesta/materialshell, use:materialshell.zsh, from:github, as:theme
 ```
 
 ### Manual
