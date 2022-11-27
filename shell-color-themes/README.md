@@ -48,6 +48,17 @@ plugins: ['hyper-materialshell']
 
 See [hyper-materialshell](https://github.com/carloscuesta/hyper-materialshell).
 
+### [Windows Termninal](https://github.com/microsoft/terminal)
+
+1. Open Settings (`Right Click Title Bar > Properties`)
+2. In the bottom left corner, click `Open JSON file`. This will open a `settings.json` file in an editor.
+3. Navigate down to the `schemes` key.
+4. Open your desired theme file from [`shell-color-themes/windows/windowsterminal`](/shell-color-themes/windows/windowsterminal).
+5. Append the JSON dict in the `.json` file into the `schemes` array of the `settings.json` file you opened in step 2. 
+6. Hit save.
+7. Naviage to the `Profiles` section or any of your specific terminals, such as `Windows PowerShell`
+8. In the `Color scheme` entry, select "`Oceanic`" from the dropdown.
+
 ## Manual
 
 Just in case there's no theme available for your terminal emulator, you can setup manually by using the color palette listed. _Feel free to send a pull request adding support for your emulator!_ :tada:
