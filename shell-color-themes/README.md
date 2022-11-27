@@ -48,7 +48,7 @@ plugins: ['hyper-materialshell']
 
 See [hyper-materialshell](https://github.com/carloscuesta/hyper-materialshell).
 
-### [Windows Termninal](https://github.com/microsoft/terminal)
+### [Windows Terminal](https://github.com/microsoft/terminal)
 
 1. Open Settings (`Right Click Title Bar > Properties`)
 2. In the bottom left corner, click `Open JSON file`. This will open a `settings.json` file in an editor.
