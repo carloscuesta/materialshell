@@ -1,0 +1,23 @@
+{
+    "background": "#151515",
+    "black": "#252525",
+    "blue": "#42A5F5",
+    "brightBlack": "#A1B0B8",
+    "brightBlue": "#6699CC",
+    "brightCyan": "#5FB3B3",
+    "brightGreen": "#99C794",
+    "brightPurple": "#D81B60",
+    "brightRed": "#EC5F67",
+    "brightWhite": "#D8DEE9",
+    "brightYellow": "#FAC863",
+    "cursorColor": "#FFFFFF",
+    "cyan": "#00ACC1",
+    "foreground": "#A1B0B8",
+    "green": "#C3D82C",
+    "name": "Material Black",
+    "purple": "#C594C5",
+    "red": "#FF443E",
+    "selectionBackground": "#9cb0b9",
+    "white": "#F5F5F5",
+    "yellow": "#FFC135"
+}
