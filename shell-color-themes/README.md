@@ -59,6 +59,18 @@ See [hyper-materialshell](https://github.com/carloscuesta/hyper-materialshell).
 7. Naviage to the `Profiles` section or any of your specific terminals, such as `Windows PowerShell`
 8. In the `Color scheme` entry, select "`Oceanic`" from the dropdown.
 
+## Universal
+
+### [Ghostty](http://ghostty.org)
+
+1. Create a `themes` directory in the `$XDG_CONFIG_HOME/ghostty` directory.
+2. Copy the theme file from from [`shell-color-themes/ghostty`](/shell-color-themes/ghostty).
+3. Set the theme in the Ghostty config file.
+
+```sh
+theme=light:materialshell-light,dark:materialshell-dark
+```
+
 ## Manual
 
 Just in case there's no theme available for your terminal emulator, you can setup manually by using the color palette listed. _Feel free to send a pull request adding support for your emulator!_ :tada:
