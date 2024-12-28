@@ -3,7 +3,8 @@
 [![GitHub license](https://img.shields.io/github/license/carloscuesta/materialshell.svg?style=flat-square)](https://github.com/carloscuesta/materialshell)
 [![GitHub release](https://img.shields.io/github/release/carloscuesta/materialshell.svg?style=flat-square)](https://github.com/carloscuesta/materialshell)
 
-![materialshell](https://cloud.githubusercontent.com/assets/7629661/11194912/348e69f6-8caf-11e5-97ec-876bd6565125.gif)
+![materialshell](https://github.com/user-attachments/assets/66df92cb-e5ff-4034-8692-42a41a57f7bc#gh-dark-mode-only)
+![materialshell](https://github.com/user-attachments/assets/b0a9f89c-61f0-42d9-b8e1-0c249cda3b9b#gh-light-mode-only)
 
 > A [material design](https://material.google.com/style/color.html) theme for your shell with a good contrast and color pops at the important parts. Designed to be easy on the eyes.
 
@@ -83,6 +84,6 @@ By **default** colors come built-in with the zsh theme. These are the **color th
 
 ## Screenshots
 
-| Dark | Oceanic |
-| :--: | :-----: |
-| ![materialshell dark](https://cloud.githubusercontent.com/assets/7629661/24923003/7b2ffa8a-1ef0-11e7-9092-dea1c694f667.png) | ![materialshell oceanic](https://cloud.githubusercontent.com/assets/7629661/24923004/7b4efe9e-1ef0-11e7-8804-ab3090ec1394.png) |
+| Dark | Light | Oceanic |
+|---|---|---|
+| ![materialshell dark](https://github.com/user-attachments/assets/da60e9dd-4ff7-4dc5-9b46-e6d6f2ed1ca3) | ![materialshell light](https://github.com/user-attachments/assets/abd9b7c8-2001-4eaa-94af-39df68c9f81e) | ![materialshell oceanic](https://github.com/user-attachments/assets/325e6b02-92de-4ab2-9c20-5e2752acf058) |

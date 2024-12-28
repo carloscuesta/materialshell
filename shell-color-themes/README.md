@@ -59,6 +59,18 @@ See [hyper-materialshell](https://github.com/carloscuesta/hyper-materialshell).
 7. Naviage to the `Profiles` section or any of your specific terminals, such as `Windows PowerShell`
 8. In the `Color scheme` entry, select "`Oceanic`" from the dropdown.
 
+## Universal
+
+### [Ghostty](http://ghostty.org)
+
+1. Create a `themes` directory in the `$XDG_CONFIG_HOME/ghostty` directory.
+2. Copy the theme file from from [`shell-color-themes/ghostty`](/shell-color-themes/ghostty).
+3. Set the theme in the Ghostty config file.
+
+```sh
+theme=light:materialshell-light,dark:materialshell-dark
+```
+
 ## Manual
 
 Just in case there's no theme available for your terminal emulator, you can setup manually by using the color palette listed. _Feel free to send a pull request adding support for your emulator!_ :tada:
@@ -75,6 +87,20 @@ Just in case there's no theme available for your terminal emulator, you can setu
 - White: [```#F5F5F5```](http://www.color-hex.com/color/F5F5F5)
 - Text: [```#A1B0B8```](http://www.color-hex.com/color/A1B0B8)
 - Background: [```#151515```](http://www.color-hex.com/color/151515)
+
+### Light
+
+
+- Black: [```#252525```](http://www.color-hex.com/color/252525)
+- Red: [```#DC3838```](http://www.color-hex.com/color/DC3838)
+- Green: [```#DC3838```](http://www.color-hex.com/color/DC3838)
+- Yellow: [```#a66c00```](http://www.color-hex.com/color/a66c00)
+- Blue: [```#107CC0```](http://www.color-hex.com/color/107CC0)
+- Magenta: [```#DE2972```](http://www.color-hex.com/color/DE2972)
+- Cyan: [```#009fb1```](http://www.color-hex.com/color/009fb1)
+- White: [```#656e71```](http://www.color-hex.com/color/656e71)
+- Text: [```#656e71```](http://www.color-hex.com/color/656e71)
+- Background: [```#f6f8fa```](http://www.color-hex.com/color/f6f8fa)
 
 ### Oceanic
 
