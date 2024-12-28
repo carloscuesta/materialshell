@@ -88,6 +88,20 @@ Just in case there's no theme available for your terminal emulator, you can setu
 - Text: [```#A1B0B8```](http://www.color-hex.com/color/A1B0B8)
 - Background: [```#151515```](http://www.color-hex.com/color/151515)
 
+### Light
+
+
+- Black: [```#252525```](http://www.color-hex.com/color/252525)
+- Red: [```#DC3838```](http://www.color-hex.com/color/DC3838)
+- Green: [```#DC3838```](http://www.color-hex.com/color/DC3838)
+- Yellow: [```#a66c00```](http://www.color-hex.com/color/a66c00)
+- Blue: [```#107CC0```](http://www.color-hex.com/color/107CC0)
+- Magenta: [```#DE2972```](http://www.color-hex.com/color/DE2972)
+- Cyan: [```#009fb1```](http://www.color-hex.com/color/009fb1)
+- White: [```#656e71```](http://www.color-hex.com/color/656e71)
+- Text: [```#656e71```](http://www.color-hex.com/color/656e71)
+- Background: [```#f6f8fa```](http://www.color-hex.com/color/f6f8fa)
+
 ### Oceanic
 
 - Black: [```#252525```](http://www.color-hex.com/color/252525)
