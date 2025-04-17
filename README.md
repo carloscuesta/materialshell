@@ -75,6 +75,7 @@ These are the colors used in both versions of the materialshell (Dark & Oceanic)
 
 By **default** colors come built-in with the zsh theme. These are the **color themes** for your **Terminal emulators**. Select the one you use to see the instructions:
 
+- [Ghostty](https://github.com/carloscuesta/materialshell/tree/master/shell-color-themes#ghostty)
 - [iTerm](https://github.com/carloscuesta/materialshell/tree/master/shell-color-themes#iterm)
 – [macOS Terminal](https://github.com/carloscuesta/materialshell/tree/master/shell-color-themes#terminal)
 - [Cmder](https://github.com/carloscuesta/materialshell/tree/master/shell-color-themes#cmder)
