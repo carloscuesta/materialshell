@@ -3,8 +3,8 @@
 [![GitHub license](https://img.shields.io/github/license/carloscuesta/materialshell.svg?style=flat-square)](https://github.com/carloscuesta/materialshell)
 [![GitHub release](https://img.shields.io/github/release/carloscuesta/materialshell.svg?style=flat-square)](https://github.com/carloscuesta/materialshell)
 
-![materialshell](https://github.com/user-attachments/assets/66df92cb-e5ff-4034-8692-42a41a57f7bc#gh-dark-mode-only)
-![materialshell](https://github.com/user-attachments/assets/b0a9f89c-61f0-42d9-b8e1-0c249cda3b9b#gh-light-mode-only)
+![materialshell](https://github.com/user-attachments/assets/af6622d9-6a8e-465c-822c-e748e1cd6090#gh-dark-mode-only)
+![materialshell](https://github.com/user-attachments/assets/bd8238cd-d81c-46a8-bbce-94e827dfd0f0#gh-light-mode-only)
 
 > A [material design](https://material.google.com/style/color.html) theme for your shell with a good contrast and color pops at the important parts. Designed to be easy on the eyes.
 
